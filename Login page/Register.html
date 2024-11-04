@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container-1">
+        <div class="header">
+            <div class="image-container">
+                <img src="asset/logo.png">
+                <div class="image-text">
+                    <h1>Examplus</h1>
+                </div>
+            </div>
+            <h2>Create Account!</h2>
+            <p>
+                Fill in the datails below to create your account
+            </p>
+        </div>
+        <div class="container" id="register-container">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="register-username">Username:</label>
+                <input type="text" id="register-username" name="register-username" required>
+
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" name="register-email" required>
+
+                <label for="user-type" style="display: flex; flex-direction: column; align-items: flex-start ;
+                 margin-bottom: 8px;">User type</label>
+                <select name="user-type" id="user-type" style="padding: 10px; border-radius: 4px;
+                 border: 1px solid silver; background-color: silverwhite;margin-bottom: 10px;">
+                    <option value="Teacher" style="background-color: #ccc">Teacher</option>
+                    <option value="Student">Student</option>
+                </select>
+
+                <label for="Matric no">Matric no</label>
+                <input type="text" id="Matric no" name="Matric no" required>
+
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" name="register-password" required>
+
+                <button type="submit">Register</button>
+            </form>
+            <div class="toggle-link">
+                <p>Already have an account? <a href="./login.html">Login here</a></p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>

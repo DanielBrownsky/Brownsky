@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-1 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 70px solid #f0f0f0;
+    max-width: 750px;
+    width: 100%;
+    padding: 1%;
+    padding-bottom: 8vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("screenshot.jpg");
+    background-size: cover;
+    background-position: center;
+    top: 60%;
+    margin-bottom: auto;
+}
+
+h1 {
+    top: 100%;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.user-type {
+    padding: auto;
+    border: 1px solid #ccc;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.remember-me label {
+    color: grey;
+}
+
+.remember-me a {
+    color: #000000;
+    text-decoration: none;
+}
+
+button {
+    padding: 15px;
+    background-color: #38008C;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(264, 89%, 21%);
+}
+
+.toggle-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toggle-link a {
+    color: #FF6501;
+    text-decoration: none;
+}
+
+.toggle-link a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+}
